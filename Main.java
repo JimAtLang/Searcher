@@ -11,7 +11,7 @@ public class Main {
         int[] searchSpace = new int[searchSpaceSize];
         for(int i=0;i<searchSpace.length;i++){
             searchSpace[i] = r.nextInt(maxValue);
-            // System.out.println("Item " + i + " is " + searchSpace[i]);
+            System.out.println("Item " + i + " is " + searchSpace[i]);
         }
         int searchTerm = 0;
         if(r.nextBoolean()){

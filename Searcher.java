@@ -1,4 +1,9 @@
 public class Searcher {
+    /**
+     * @param searchSpace - the 
+     * @param searchTerm
+     * @return
+     */
     public int linearSearch(int[] searchSpace, int searchTerm){
         // If the term is in the search space, find the index 
         // of the term. If it is not in the search space, 
